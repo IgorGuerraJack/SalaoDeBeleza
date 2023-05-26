@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+body{
+    background-color: rgb(231, 231, 231);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+header{
+    background-color: rgb(249, 249, 249) ;
+    padding: 1% 0;
+    box-shadow: 0 3px 30px 3px gray;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav img{
+    width: 70px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+header li{
+    list-style: none;
+}
+#pressionado{
+    color: gray;
+}
+.imagemhead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#moca{
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+}
+#sombra{
+    margin-top: 11.5%;
+    position: relative;
+    z-index: 2;
+}
+.imagemhead h1, h2{
+    color: white;
+}
+.imagemhead h1{
+    position: absolute;
+    z-index: 3;
+    margin-top: 18%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1500%;
+}
+.imagemhead h2{
+    position: absolute;
+    z-index: 3;
+    margin-top: 38%;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 250%;
+    letter-spacing: 10px;
+}
+main{
+    display: flex;
+}
+
+#eifel{
+    text-align: center;
+    margin: 5%;
+}
+#ruiva{
+    margin-bottom: 10%;
+    border: 10px white solid;
+}
+.linha{
+    border: 0.5px gray solid;
+    margin: 3% 25%;
+}
+#cabelo{
+    margin: 4%;
+    text-align: center;
+}
+#cabelo h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1000%;   
+    color: gray;
+
+}
+#cabelo p{
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 150%;
+    margin: 0% 20%;
+}
+#cabelo ul{
+    margin: 0% 20%;
+    
+}
+#cabelo ul, li{
+    list-style-image: url(lista.jpg);
+    font-family: 'Pathway Extreme', sans-serif;  
+    font-size: 130%;
+    text-align: left;
+    color: rgb(82, 81, 81);
+    
+}
+#masculino a img{
+    width: 100%;
+}
+#makeup{
+    font-family: 'Dancing Script', cursive;
+    font-size: 800%;
+    text-align: center;
+    color: gray;
+}
+.makeup{
+    background-image: url(fundomakeup.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.makeupinterno{
+    display: flex;
+    margin-top: 3%;
+    font-family: 'Pathway Extreme', sans-serif;
+    color: gray;   
+}
+.makeupinterno h2{
+    color: gray;   
+    margin: 10% 0%;
+}
+.traco{
+    border: 0.5px gray solid;
+    margin: 3% 25%;
+    width: 90%;
+}
+.textomakeupinterno ul{
+    margin-top: 15%;
+}
+.textomakeupinterno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 16.6%;
+    margin-top: 1%;
+}
+.textomakeupinterno a{
+    font-family: 'Pathway Extreme', sans-serif;
+    color: black;
+    background-color: yellow;
+    font-size: 150%;
+    margin: auto;
+    padding: 5%;
+}
+.makeupinterno img, h2{
+    margin-top: 1%;
+}
+.makeupinterno img{
+    width: 42%;
+    margin-bottom: 3.5%;
+    margin-right: 16.6%;
+}
+.outrosservicos{
+    color: gray;
+    background-color: white;
+    padding: 5%;
+    
+}
+.outrosservicos h2 {
+    color: gray;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.traco1 {
+    border: 0.5px gray solid;
+    width: 60%;
+}
+
+.menuoutros {
+    display: flex;
+    justify-content: space-between;
+}
+.menuoutros img {
+    margin-top: 2%;
+    width: 90%;
+}
+.cilios{
+    width: 70%;
+}
+.cilios p{
+    font-family: 'Pathway Extreme', sans-serif;
+    margin-right: 7%;
+}
+.galeria{
+    padding: 3% 5%;
+    text-align: center;
+    background-color: white;
+}
+#galeria{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.mocas{
+    column-count: 5;
+    column-gap: 4px;
+}
+.mocas img{
+    width: 100%;
+}
+footer{
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: space-evenly;
+}
+#ig{
+    text-align: center;
+    padding: 5%;
+}
+#ig a img{
+    margin-top: 20%;
+}
+#contato{
+    padding: 5.5% 5%;
+    flex-direction: column;
+    text-align: center;
+}
+#contato h2{
+    font-family: 'Pathway Extreme', sans-serif;
+    color: gray;
+}
+
+#contato a img{
+    width: 30%;
+    margin-top: 40%;
+}
+#horario{
+    padding: 5.5% 5%;
+}
+#horario h2, p{
+    font-family: 'Pathway Extreme', sans-serif;
+    color: gray;
+}
+#horario h2{
+    margin-bottom: 7%;
+}

@@ -1,0 +1,178 @@
+/* Reset */
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/* Estilos do body */
+body {
+	background-color: rgb(231, 231, 231);
+}
+
+/* Estilos do link */
+a {
+	color: black;
+	font-family: 'Pathway Extreme', sans-serif;
+	font-size: 130%;
+	text-decoration: none;
+}
+
+/* Estilos do header */
+header {
+	background-color: rgb(249, 249, 249);
+	box-shadow: 0 3px 30px 3px gray;
+	padding: 1% 0;
+}
+
+header nav {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+header nav img {
+	width: 70px;
+}
+
+header ul {
+	display: flex;
+	gap: 100px;
+	list-style: none;
+}
+
+/* Estilos da imagem no header */
+.imagemhead {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Estilos da classe lugarbonito */
+.lugarbonito {
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos da classe direita */
+.direita {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	list-style: none;
+	margin: 0% 2%;
+}
+
+/* Estilos da classe horarios */
+.horarios {
+	display: flex;
+	gap: 10%;
+	justify-content: space-evenly;
+}
+
+/* Estilos da classe ulli */
+.ulli {
+	list-style: none;
+}
+
+/* Estilos da classe ulllli */
+.ulli ul li {
+	font-family: 'Pathway Extreme', sans-serif;
+	list-style: none;
+}
+
+/* Estilos do article */
+article {
+	display: flex;
+	font-family: 'Pathway Extreme', sans-serif;
+	justify-content: space-evenly;
+}
+
+/* Estilos da classe contato */
+.contato {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+/* Estilos da classe telefone */
+.telefone {
+	display: flex;
+}
+
+.contato img {
+	width: 100%;
+}
+
+/* Estilos da classe galeria */
+.galeria {
+	background-color: white;
+	padding: 3% 5%;
+	text-align: center;
+}
+
+/* Estilos do id galeria */
+#galeria {
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+/* Estilos da classe mocas */
+.mocas {
+	column-count: 5;
+	column-gap: 4px;
+}
+
+.mocas img {
+	width: 100%;
+}
+
+/* Estilos do footer */
+footer {
+	background-color: rgb(46, 46, 46);
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/* Estilos do id ig */
+#ig {
+	padding: 5%;
+	text-align: center;
+}
+
+#ig a img {
+	margin-top: 20%;
+}
+
+/* Estilos do id contato */
+#contato {
+	flex-direction: column;
+	padding: 5.5% 5%;
+	text-align: center;
+}
+
+#contato h2 {
+	color: gray;
+	font-family: 'Pathway Extreme', sans-serif;
+}
+
+#contato a img {
+	margin-top: 40%;
+	width: 30%;
+}
+
+/* Estilos do id horario */
+#horario {
+	padding: 5.5% 5%;
+}
+
+#horario h2,
+p {
+	color: gray;
+	font-family: 'Pathway Extreme', sans-serif;
+}
+
+#horario h2 {
+	margin-bottom: 7%;
+}

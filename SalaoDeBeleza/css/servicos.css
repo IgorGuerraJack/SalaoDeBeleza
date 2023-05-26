@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+body{
+    background-color: rgb(231, 231, 231);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 130%;
+}
+header{
+    background-color: rgb(249, 249, 249) ;
+    padding: 1% 0;
+    box-shadow: 0 3px 30px 3px gray;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav img{
+    width: 70px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+header li{
+    list-style: none;
+    
+}
+#pressionado{
+    color: gray;
+}
+.imagemhead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    background-color: rgb(231, 231, 231);
+    padding: 5% 4%;
+}
+article img{
+    margin-bottom: 5%;
+}
+.generico{
+    display: flex;
+    justify-content: space-between;
+}
+.generico img{
+    width: 70%;
+}
+.make{
+    width: 80%;
+}
+.make p{
+    /* padding: 1% 11%; */
+    margin-right: 29%;
+    text-align: center;
+}
+
+.galeria{
+    padding: 3% 5%;
+    text-align: center;
+    background-color: white;
+}
+#galeria{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.mocas{
+    column-count: 5;
+    column-gap: 4px;
+}
+.mocas img{
+    width: 100%;
+}
+footer{
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: space-evenly;
+}
+#ig{
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 5%;
+    /* display: flex; */
+}
+#ig a img{
+    margin-top: 20%;
+}
+#contato{
+    padding: 5.5% 5%;
+    flex-direction: column;
+    
+    text-align: center;
+    /* background-color: aqua; */
+}
+#contato h2{
+    font-family: 'Pathway Extreme', sans-serif;
+    color: gray;
+}
+
+#contato a img{
+    width: 30%;
+    margin-top: 40%;
+}
+#horario{
+    padding: 5.5% 5%;
+}
+#horario h2, p{
+    font-family: 'Pathway Extreme', sans-serif;
+    color: gray;
+}
+#horario h2{
+    margin-bottom: 7%;
+}
